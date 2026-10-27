@@ -5,6 +5,8 @@ import Relevant from "./components/Relevant";
 import Compassion from "./components/Compassion";
 import Benefit from "./components/Benefit";
 import Sermon from "./components/Sermon";
+import Detail from "./components/Detail";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
       <Relevant />
       <Compassion />
       <Benefit />
-      <Sermon/>
+      <Sermon />
+      <Detail />
+      <Footer />
     </div>
   );
 };
